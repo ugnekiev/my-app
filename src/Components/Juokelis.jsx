@@ -1,6 +1,6 @@
-const Juokelis = () => {
+const Juokelis = ({juokas, juokas2}) => {
 
-    return <>Juokelis</>;
+    return <li>{juokas} {juokas2}</li>;
 }
 
 export default Juokelis;
